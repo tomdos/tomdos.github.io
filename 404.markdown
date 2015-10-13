@@ -1,0 +1,8 @@
+---
+layout: page
+title: Error 404
+permalink: /404.html
+exclude: true
+---
+
+<p>Only small creatures live here!</p>
