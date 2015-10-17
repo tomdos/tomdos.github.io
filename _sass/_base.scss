@@ -82,11 +82,13 @@
 /* Links
  * ============================================== */
     a {
-        color: darken($grey-color, 10%);
+        /*color: darken($grey-color, 10%);*/
+        color: $brand-color;
         text-decoration: none;
 
         &:hover {
-            color: darken($grey-color, 20%);
+            /* color: darken($grey-color, 20%); */
+            color: lighten($brand-color, 5%);
             text-decoration: none;
         }
     }
