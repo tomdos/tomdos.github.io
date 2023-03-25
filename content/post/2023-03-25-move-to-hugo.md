@@ -30,6 +30,8 @@ https://gohugo.io/content-management/syntax-highlighting/
 Snippets gallery:
 https://xyproto.github.io/splash/docs/all.html
 
+Github workflow for publishing on GitHub Pages:
+https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
 #### My config
 
