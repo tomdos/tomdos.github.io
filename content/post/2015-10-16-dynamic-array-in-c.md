@@ -10,7 +10,7 @@ Although I have been developing in C for while I had never heard about dynamic a
 
 Dynamic array allows you to create an 'static' array on stack and calculate its size during runtime. Let's show it in example. 
 
-{% highlight c %}
+```c
 void
 function1(char * filename) 
 {
@@ -19,13 +19,13 @@ function1(char * filename)
     strcpy(holder, filename);
     printf("%s == %s\n", filename, holder);
 }
-{% endhighlight %}
+```
 
 You can see that holder's size is taken from strlen() of filename which is of course calculated during runtime. The variable holder is allocated on a stack and freed automatically once you returned from the function. It has very similar behavior like [alloca(3)](http://man7.org/linux/man-pages/man3/alloca.3.html) function form standard library. 
 
 However difference between alloca() and dynamic arrays is result of sizeof. The result is size of pointer in case of alloca() and length of the array in case of dynamic array. Let's have a look on one more example.
 
-{% highlight c %}
+```c
 void
 function2() 
 {
@@ -42,11 +42,11 @@ function2()
     printf("sizeof: %ld == %ld != %ld\n",      
         sizeof(holder1), sizeof(holder2), sizeof(holder3));
 }
-{% endhighlight %}
+```
 
 As you can probably guess the result is going to be following.
 
-```
+```bash
 strlen: 5 == 5 == 5
 sizeof: 6 == 6 != 8
 ```

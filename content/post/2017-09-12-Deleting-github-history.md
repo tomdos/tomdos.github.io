@@ -16,32 +16,32 @@ hardcoded passwords/keys stay uncompromised. The solution seems to be creating a
 orphaned branch with a single commit and then replacing master branch with the new one.
 
 Create new branch called `my_new_master`.
-```
+```bash
 git checkout --orphan my_new_master
 ```
 
 As the branch is orphaned it doesn't contain any previous commits thus any files. We
 need to add all files into it.
-```
+```bash
 git add -A
 ```
 
 Create an initial commit.
-```
+```bash
 git commit -m "Initial commit"
 ```
 
 We need to replace "old" master now which means we have to delete it at first.
-```
+```bash
 git branch -D master
 ```
 
 Rename the current branch `my_new_master` to `master`.
-```
+```bash
 git branch -m master
 ```
 
 Rewrite old remote master with the new one.
-```
+```bash
 git push -f origin master
 ```

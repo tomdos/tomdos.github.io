@@ -14,13 +14,13 @@ The following example shows new shortcut on mac platform. I wanted to use cmd-l 
 
 The second part is selector `atom-text-editor`. The reason I modified it is because `cmd-l` had been already used. I have to use `unset!` here to disable its functionality.
 
-{% highlight CoffeeScript %}
+```coffee
 '.platform-darwin': 
     'cmd-l': 'go-to-line:toggle'
     
 'atom-text-editor': 
     'cmd-l': 'unset!'
-{% endhighlight %}
+```
 
 **References:**
 
