@@ -21,7 +21,7 @@ Images are supposed to be store in the `static` folder where is my
 home image as well `static/me.jpg`.
 
 
-#### Useful links
+## Useful links
 Here are couple of usefule links I used during configuration of Hugo.
 
 Syntax highlights:
@@ -33,7 +33,7 @@ https://xyproto.github.io/splash/docs/all.html
 Github workflow for publishing on GitHub Pages:
 https://gohugo.io/hosting-and-deployment/hosting-on-github/
 
-#### My config
+## My config
 
 This is how the current block is configured in `config.toml` 
 
