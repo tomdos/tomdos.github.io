@@ -9,7 +9,8 @@ tags: [
     "pico"
 ]
 categories: [
-    "Raspberry Pi"
+    "Raspberry Pi",
+    "AWS"
 ]
 ---
 
