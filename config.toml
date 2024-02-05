@@ -31,7 +31,7 @@ copyright = "&copy; Copyright 2023, Tomas Dosoudil"
 [params]
   description = "Tomas Dosoudil's blog"      # Your meta description of the site
   header_title = "Tomas Dosoudil"                 # Your header title
-  header_subtitle = "A software engineer enthusiast" # Your header subtitle
+  header_subtitle = "An enthusiastic software engineer" # Your header subtitle
   home_image = "me.jpg"          # Path to header image starting from the static directory
   recent_posts = 100                           # Max amount of recent posts to show
   mainSections = ["post"]   # Main sections to include in recent posts
